@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  color: aliceblue;
+}
+
+.card {
+  background-color: rgb(67, 67, 87);
+  padding: 40px;
+  border-radius: 8px;
+}
+.card_title {
+  margin-bottom: 20px;
+}
+.card_area {
+  margin: 3px 0px 14px 0px;
+  border-radius: 4px;
+}
+.card_btns {
+  display: flex;
+  justify-content: space-around;
+}
+.card_btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card_btn--agree {
+  background-color: greenyellow;
+}/*# sourceMappingURL=style.css.map */
